@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(248, 249, 250);
+}
+
+/************ Nav Bar ************/
+
+nav {
+  margin-bottom: 7%;
+  /* position: relative; */
+}
+
+/* .name {
+  margin-left: 22px;
+  position: relative;
+  left: 12%;
+} */
+
+.navItems {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navItems a {
+  margin-right: 22px;
+}
+
+.navItems a:last-child {
+  margin-right: 0;
+}
+
+/************ Header ************/
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 4%;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+header p {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+header h1 {
+  font-size: 64px;
+}
+
+header span {
+  color: rgb(137, 54, 54);
+}
+
+.fadiImg {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.download-cv {
+  margin-top: 20px;
+}
+
+/************ About Me ************/
+
+section {
+  position: relative;
+  padding: 100px 10vw;
+}
+
+section img {
+  width: 400px;
+  border-radius: 2%;
+  margin-right: 50px;
+}
+
+.heading {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.about-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.about-info {
+  width: 600px;
+  justify-self: start;
+}
+
+.about-info p {
+  font-size: 24px;
+}
